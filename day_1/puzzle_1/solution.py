@@ -1,6 +1,6 @@
 import re
 
-file_path = 'input.txt'
+file_path = '../input.txt'
 
 def extract_digit(line):
     match = re.search(r'\d', line)
